@@ -13,3 +13,8 @@
 > git restore . (for all files)
 > git restore index.html (for particular fil)
 > git restore --staged app.js ( after git add .)
+
+#Revert
+> git log ( more desc.)
+> git log --oneline (To Show minimum desc.)
+> git revert <commitId>
