@@ -8,3 +8,8 @@
 > git remote add origin  https://github.com/nitin-sehgal25/My-Project.git
 > git push -u origin main <first time>
 > git push <Next time>
+
+#Restore Code
+> git restore . (for all files)
+> git restore index.html (for particular fil)
+> git restore --staged app.js ( after git add .)
