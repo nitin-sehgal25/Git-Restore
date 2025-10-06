@@ -1,0 +1,10 @@
+> git init
+> git add . (Track changes)
+> git commit -m "h2 tag Added"
+> git branch -M main
+> git add .
+> git commit -m "h2 tag added"
+> git branch -M main
+> git remote add origin  https://github.com/nitin-sehgal25/My-Project.git
+> git push -u origin main <first time>
+> git push <Next time>
