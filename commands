@@ -13,7 +13,3 @@
 > git restore . (for all files)
 > git restore index.html (for particular fil)
 > git restore --staged app.js ( after git add .)
-
-
-git log ( show more description)
-git log --oneline
