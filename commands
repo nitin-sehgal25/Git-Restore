@@ -9,12 +9,20 @@
 > git push -u origin main <first time>
 > git push <Next time>
 
-#Restore Code
+#Restore Code (discard that local change (not the commit))
 > git restore . (for all files)
-> git restore index.html (for particular fil)
+> git restore index.html (for particular file)
 > git restore --staged app.js ( after git add .)
 
 #Revert
 > git log ( more desc.)
 > git log --oneline (To Show minimum desc.)
 > git revert <commitId>
+
+#Reset ( Remove commit history)
+> git reset 
+> git reset –-soft HEAD~1  OR git reset --soft <b2c345>
+> git reset –-mixed HEAD~1 or git reset HEAD~1 ( jump to previous commit)  OR git reset --mixed <b2c345>
+> git reset –-hard HEAD~1 ( remove from working directory)
+
+difference between git restore and git revert and get reset with example
